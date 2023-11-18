@@ -1,3 +1,6 @@
+// Time complexity: O(n)
+// Space complexity: O(n)
+
 fun main() {
   val strings = listOf("abcabccb", "dorime", "hopjol")
   for (string in strings) {

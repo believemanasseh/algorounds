@@ -1,3 +1,6 @@
+// Time complexity: O(n)
+// Space complexity: O(n)
+
 function longestSubstring(string) {
   let count = 0;
   let temp = [];

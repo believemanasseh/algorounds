@@ -1,22 +1,25 @@
 import random
 
-""" To test running time on *nix, run --time python3 max_pairwise_product.py-- """
+# Time complexity: O(n^2)
+# Space complexity: O(1)
+
 
 def MaxPairwiseProduct(n):
-	result = 0
-	numbers = input().split()
-	arr = list(map(int, numbers))
+    result = 0
+    numbers = input().split()
+    arr = list(map(int, numbers))
 
-	for i in range(n):
-		for j in range(i+1, n):
-			if arr[i] * arr[j] > result:
-				result = arr[i] * arr[j]
-	return result
+    for i in range(n):
+        for j in range(i + 1, n):
+            if arr[i] * arr[j] > result:
+                result = arr[i] * arr[j]
+    return result
+
 
 print(MaxPairwiseProduct(int(input())))
 
 
-'''
+"""
 Alternative Solution:
 
 def MaxPairwiseProd(n):
@@ -34,5 +37,4 @@ def MaxPairwiseProd(n):
 		return result
 
 print(MaxPairwiseProd(int(input())))
-'''
-
+"""
