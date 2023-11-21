@@ -10,7 +10,7 @@ int solution(int numbers[], int target, int size)
 {
     int left = 0;
     int right = size - 1;
-    while (left < right)
+    while (left <= right)
     {
         int mid = (left + right) / 2;
         if (numbers[mid] < target)
