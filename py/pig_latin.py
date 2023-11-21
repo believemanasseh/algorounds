@@ -1,5 +1,8 @@
-# Time complexity: O(n + m)
-# Space complexity O(n + m)
+"""python 3.10.12
+
+Time complexity: O(n + m)
+Space complexity: O(n + m)
+"""
 
 
 def solution(string):

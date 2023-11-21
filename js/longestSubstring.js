@@ -1,5 +1,8 @@
-// Time complexity: O(n)
-// Space complexity: O(n)
+/*node 18.12.1
+
+Time complexity: O(n)
+Space complexity: O(n)
+*/
 
 function longestSubstring(string) {
   let count = 0;

@@ -1,5 +1,8 @@
-// Time complexity: O(n)
-// Space complexity: O(n)
+/*kotlin 1.8.0
+
+Time complexity: O(n)
+Space complexity: O(n)
+ */
 
 fun main() {
   val strings = listOf("abcabccb", "dorime", "hopjol")
