@@ -1,3 +1,9 @@
+"""rustc 1.71.0
+
+Time complexity: O(n)
+Space complexity: O(1)
+"""
+
 use std::iter::Iterator;
 
 fn solution(nums: &mut [i32], n: usize) -> &mut [i32] {
