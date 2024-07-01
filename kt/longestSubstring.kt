@@ -4,7 +4,7 @@ Time complexity: O(n)
 Space complexity: O(n)
  */
 
-fun main() {
+ fun main() {
   val strings = listOf("abcabccb", "dorime", "hopjol")
   for (string in strings) {
     println(solution(string))
@@ -25,9 +25,11 @@ fun solution(string: String): Int {
       temp.clear()
       temp.add(ch)
     }
+
     if (index == string.length - 1 && count == 0) {
       return temp.size
     }
   }
+  
   return count
 }
