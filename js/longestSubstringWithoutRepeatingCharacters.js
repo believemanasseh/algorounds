@@ -4,7 +4,7 @@ Time complexity: O(n)
 Space complexity: O(n)
 */
 
-function longestSubstring(string) {
+function solution(string) {
   let count = 0;
   let temp = [];
 
@@ -18,14 +18,16 @@ function longestSubstring(string) {
       temp.length = 0;
       temp.push(string[i]);
     }
+
     if (i == string.length - 1 && count == 0) {
       return temp.length;
     }
   }
+
   return count;
 }
 
 const strings = ["abcabccb", "dorime", "hokpol"];
 for (string of strings) {
-  console.log(longestSubstring(string));
+  console.log(solution(string));
 }
