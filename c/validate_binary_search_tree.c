@@ -1,12 +1,11 @@
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
-
 /*C90
 
  Time complexity: O(n)
  Space complexity: O(n)
 */
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct TreeNode* insert(struct TreeNode* root, int value);
 
