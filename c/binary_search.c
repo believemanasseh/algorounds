@@ -23,6 +23,7 @@ int solution(int numbers[], int target, int size) {
     return -1;
 }
 
+
 void main() {
     int arr[5] = {1, 3, 5, 7, 9};
     int size = sizeof(arr) / sizeof(arr[0]);

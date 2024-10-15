@@ -58,6 +58,7 @@ int solution(int *nums, int numsSize) {
     return 0;
 }
 
+
 void main() {
     int arr[] = {2, 3, 4, 5, 1};
     int size = sizeof(arr) / sizeof(arr[0]);
