@@ -7,8 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct TreeNode* insert(struct TreeNode* root, int value);
-
 struct TreeNode {
     int val;
     struct TreeNode* left;
